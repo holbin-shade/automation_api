@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Administration",
+    "children" : [ {
+      "name" : "Users",
+      "children" : [ {
+        "name" : "test_create_user",
+        "uid" : "422d3eb9c066dbbf",
+        "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726549067052,
+          "stop" : 1726549069052,
+          "duration" : 2000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f64d37a1ed8912c08d6e1530059ab016"
+    } ],
+    "uid" : "93837b4d60bfe3e71ac8002e68360ef6"
+  } ],
+  "name" : "behaviors"
+}

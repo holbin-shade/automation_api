@@ -1,0 +1,11 @@
+[ {
+  "uid" : "422d3eb9c066dbbf",
+  "name" : "test_create_user",
+  "time" : {
+    "start" : 1726549067052,
+    "stop" : 1726549069052,
+    "duration" : 2000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
