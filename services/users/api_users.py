@@ -33,7 +33,28 @@ class UserApis(Helper):
             url=self.endpoints.get_user(uuid),
             headers=self.headers.basic_headers,
         )
+        if response.status_code == 200:
+            self.attach_response(response.json())
+            model = UserModel(**response.json())
+            return model
+        elif response.status_code == 404:
+            return response.status_code
+
+    @allure.step("Get all users")
+    def get_all_users(self):
+        response = requests.get(
+            url=self.endpoints.get_users,
+            headers=self.headers.basic_headers,
+        )
         assert response.status_code == 200
         self.attach_response(response.json())
-        model = UserModel(**response.json())
-        return model
+        users = [UserModel(**user) for user in response.json().get('users', [])]
+        return users
+    
+    @allure.step("Delete user by id")
+    def delete_user_by_id(self, user_id):
+        response = requests.delete(
+            url=self.endpoints.delete_user(user_id),
+            headers=self.headers.basic_headers
+        )        
+        assert response.status_code == 204
