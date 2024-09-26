@@ -1,8 +1,4 @@
 import os 
-from dotenv import load_dotenv
-
-load_dotenv()
-
 
 HOST = "https://dev-gs.qa-playground.com/api/v1" if  os.environ.get("STAGE") == "qa" else "https://release-gs.qa-playground.com/api/v1"
 
