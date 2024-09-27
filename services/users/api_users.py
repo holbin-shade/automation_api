@@ -37,7 +37,7 @@ class UserApis(Helper):
             self.attach_response(response.json())
             model = UserModel(**response.json())
             return model
-        elif response.status_code == 404:
+        else:
             return response.status_code
 
     @allure.step("Get all users")
@@ -58,3 +58,17 @@ class UserApis(Helper):
             headers=self.headers.basic_headers
         )        
         assert response.status_code == 204
+        
+    @allure.step("Patch user by id")
+    def patch_user_by_id(self, user_id, data):
+        response = requests.patch(
+            url=self.endpoints.patch_user(user_id),
+            headers=self.headers.basic_headers,
+            json=data
+        )        
+        if response.status_code == 200:
+            self.attach_response(response.json())
+            model = UserModel(**response.json())
+            return model
+        else:
+            return response

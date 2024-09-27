@@ -10,4 +10,4 @@ class EndPoints:
     post_user_login = f"{HOST}/users/login"
     get_user = lambda self, uuid: f"{HOST}/users/{uuid}"
     delete_user = lambda self, uuid: f"{HOST}/users/{uuid}"
-    patch_user = lambda self, uuid: f"f{HOST}/users/{uuid}"
+    patch_user = lambda self, uuid: f"{HOST}/users/{uuid}"
