@@ -1,5 +1,5 @@
 {
-  "uid" : "422d3eb9c066dbbf",
+  "uid" : "8ab76a5444e0f5c8",
   "name" : "test_create_user",
   "fullName" : "tests.test_users.TestUsers#test_create_user",
   "historyId" : "ce0b19f95bcbd1de31b616ddbadc8db8",
@@ -69,9 +69,9 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "1efe4a4edb3133ec",
+        "uid" : "97d1914a0233d483",
         "name" : "Api response",
-        "source" : "1efe4a4edb3133ec.json",
+        "source" : "97d1914a0233d483.json",
         "type" : "application/json",
         "size" : 161
       } ],
@@ -90,9 +90,9 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "72fd5faca5147c14",
+        "uid" : "e804dcff990e89c9",
         "name" : "Api response",
-        "source" : "72fd5faca5147c14.json",
+        "source" : "e804dcff990e89c9.json",
         "type" : "application/json",
         "size" : 161
       } ],
@@ -167,22 +167,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "fec6b3bf68b71ec4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1726549051498,
-        "stop" : 1726549053879,
-        "duration" : 2381
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "users" ]
   },
-  "source" : "422d3eb9c066dbbf.json",
+  "source" : "8ab76a5444e0f5c8.json",
   "parameterValues" : [ ]
 }

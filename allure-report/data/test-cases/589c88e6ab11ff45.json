@@ -1,0 +1,262 @@
+{
+  "uid" : "589c88e6ab11ff45",
+  "name" : "test_create_user",
+  "fullName" : "tests.test_users.TestUsers#test_create_user",
+  "historyId" : "ce0b19f95bcbd1de31b616ddbadc8db8",
+  "time" : {
+    "start" : 1727419013491,
+    "stop" : 1727419015040,
+    "duration" : 1549
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1727419005103,
+      "stop" : 1727419006818,
+      "duration" : 1715
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1727419005091,
+      "stop" : 1727419005103,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUsers",
+    "time" : {
+      "start" : 1727419013490,
+      "stop" : 1727419013491,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user",
+      "time" : {
+        "start" : 1727419013491,
+        "stop" : 1727419014436,
+        "duration" : 945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6798960b7006c9f4",
+        "name" : "Api response",
+        "source" : "6798960b7006c9f4.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Get user by id",
+      "time" : {
+        "start" : 1727419014436,
+        "stop" : 1727419015040,
+        "duration" : 604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0f566dcaf3a4955",
+        "name" : "Api response",
+        "source" : "e0f566dcaf3a4955.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ {
+        "name" : "uuid",
+        "value" : "'d1a16107-f29f-4b02-932c-a0b6f9edfe13'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUsers::0",
+    "time" : {
+      "start" : 1727419015041,
+      "stop" : 1727419015041,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Users"
+  }, {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "tag",
+    "value" : "users"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_users"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUsers"
+  }, {
+    "name" : "host",
+    "value" : "314de6461e85"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "408f6ed323b6922f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727418915403,
+        "stop" : 1727418917286,
+        "duration" : 1883
+      }
+    }, {
+      "uid" : "2da32d45605f0072",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727376953152,
+        "stop" : 1727376954632,
+        "duration" : 1480
+      }
+    }, {
+      "uid" : "ca5df4cbc09dae60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727376919162,
+        "stop" : 1727376920697,
+        "duration" : 1535
+      }
+    }, {
+      "uid" : "3380fd65ced22be6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726983625234,
+        "stop" : 1726983626738,
+        "duration" : 1504
+      }
+    }, {
+      "uid" : "a9b9570e43ed23d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726914573951,
+        "stop" : 1726914575696,
+        "duration" : 1745
+      }
+    }, {
+      "uid" : "9c0844f0c2f6678f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1726913839638,
+        "stop" : 1726913839638,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e690ec10fbdf5b13",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1726910916797,
+        "stop" : 1726910916797,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15cfd86ca7ad8014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726725625946,
+        "stop" : 1726725627383,
+        "duration" : 1437
+      }
+    }, {
+      "uid" : "8ab76a5444e0f5c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726549067052,
+        "stop" : 1726549069052,
+        "duration" : 2000
+      }
+    }, {
+      "uid" : "c824aa472e2b0972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726549051498,
+        "stop" : 1726549053879,
+        "duration" : 2381
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "users" ]
+  },
+  "source" : "589c88e6ab11ff45.json",
+  "parameterValues" : [ ]
+}

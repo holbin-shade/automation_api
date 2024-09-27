@@ -1,10 +1,40 @@
 [ {
-  "uid" : "422d3eb9c066dbbf",
+  "uid" : "f623aa7bf9ca6d3a",
+  "name" : "test_delete_user",
+  "time" : {
+    "start" : 1727419006819,
+    "stop" : 1727419010121,
+    "duration" : 3302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "590266ab1001d7f4",
+  "name" : "test_patch_user_data",
+  "time" : {
+    "start" : 1727419011771,
+    "stop" : 1727419013484,
+    "duration" : 1713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "589c88e6ab11ff45",
   "name" : "test_create_user",
   "time" : {
-    "start" : 1726549067052,
-    "stop" : 1726549069052,
-    "duration" : 2000
+    "start" : 1727419013491,
+    "stop" : 1727419015040,
+    "duration" : 1549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d68d9f7143a1e9f4",
+  "name" : "test_get_all_users",
+  "time" : {
+    "start" : 1727419010129,
+    "stop" : 1727419011761,
+    "duration" : 1632
   },
   "status" : "passed",
   "severity" : "normal"

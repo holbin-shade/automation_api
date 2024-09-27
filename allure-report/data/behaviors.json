@@ -3,16 +3,67 @@
   "children" : [ {
     "name" : "Administration",
     "children" : [ {
+      "name" : "Delete user",
+      "children" : [ {
+        "name" : "test_delete_user",
+        "uid" : "f623aa7bf9ca6d3a",
+        "parentUid" : "68d82c2921ff75e7fc90a3c20b971c0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727419006819,
+          "stop" : 1727419010121,
+          "duration" : 3302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68d82c2921ff75e7fc90a3c20b971c0c"
+    }, {
+      "name" : "Games",
+      "children" : [ {
+        "name" : "test_get_all_users",
+        "uid" : "d68d9f7143a1e9f4",
+        "parentUid" : "537985e2c3feb86a2939f6049422fdc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727419010129,
+          "stop" : 1727419011761,
+          "duration" : 1632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "537985e2c3feb86a2939f6049422fdc6"
+    }, {
+      "name" : "Patch user data",
+      "children" : [ {
+        "name" : "test_patch_user_data",
+        "uid" : "590266ab1001d7f4",
+        "parentUid" : "b70f4ab68a60d772980acdd16936428e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727419011771,
+          "stop" : 1727419013484,
+          "duration" : 1713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b70f4ab68a60d772980acdd16936428e"
+    }, {
       "name" : "Users",
       "children" : [ {
         "name" : "test_create_user",
-        "uid" : "422d3eb9c066dbbf",
+        "uid" : "589c88e6ab11ff45",
         "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
         "status" : "passed",
         "time" : {
-          "start" : 1726549067052,
-          "stop" : 1726549069052,
-          "duration" : 2000
+          "start" : 1727419013491,
+          "stop" : 1727419015040,
+          "duration" : 1549
         },
         "flaky" : false,
         "newFailed" : false,

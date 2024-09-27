@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "total": 11
+    },
+    "users": [
+        {
+            "avatar_url": "",
+            "email": "alex@gmail.com",
+            "name": "Alex",
+            "nickname": "alex",
+            "uuid": "b6c8aaed-632c-4c3b-aa1d-a84d2931ea1f"
+        },
+        {
+            "avatar_url": "",
+            "email": "john@gmail.com",
+            "name": "John",
+            "nickname": "john",
+            "uuid": "6200c3d2-8515-477d-b00a-cfcb97d69b78"
+        },
+        {
+            "avatar_url": "",
+            "email": "kate@gmail.com",
+            "name": "Kate",
+            "nickname": "kate",
+            "uuid": "21733802-9c5a-4732-9598-d7dd59c133dc"
+        },
+        {
+            "avatar_url": "",
+            "email": "leona@gmail.com",
+            "name": "Leona",
+            "nickname": "leona",
+            "uuid": "90066c0f-bcdb-4dab-bb11-1c83e5d2bce6"
+        },
+        {
+            "avatar_url": "",
+            "email": "mario@gmail.com",
+            "name": "Mario",
+            "nickname": "mario",
+            "uuid": "d43a03f3-f64a-4dab-bf92-ba69bc9c054d"
+        },
+        {
+            "avatar_url": "",
+            "email": "roman@gmail.com",
+            "name": "Roman",
+            "nickname": "roman",
+            "uuid": "95aa10cf-ace9-4e01-ab5e-a8697c00c952"
+        },
+        {
+            "avatar_url": "",
+            "email": "said@gmail.com",
+            "name": "Said",
+            "nickname": "said",
+            "uuid": "2252539a-0dcc-4853-a753-2f110df7099d"
+        },
+        {
+            "avatar_url": "",
+            "email": "sam@gmail.com",
+            "name": "Sam",
+            "nickname": "sam",
+            "uuid": "a6a2884f-c8c5-4f75-aede-826f764ec23b"
+        },
+        {
+            "avatar_url": "",
+            "email": "sasha@gmail.com",
+            "name": "Sasha",
+            "nickname": "sasha",
+            "uuid": "81ea539f-b594-4ea3-a85e-dd9910a4c1b3"
+        },
+        {
+            "avatar_url": "",
+            "email": "sergey@gmail.com",
+            "name": "Sergey",
+            "nickname": "sergey",
+            "uuid": "4fe4f668-9191-44df-aade-ee98fbce0d5b"
+        }
+    ]
+}

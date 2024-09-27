@@ -1,0 +1,97 @@
+{
+  "uid" : "97d2f50c88ebbe27",
+  "name" : "test_delete_user",
+  "fullName" : "tests.test_delete_user.TestDeleteUser#test_delete_user",
+  "historyId" : "29f5cc8c997e6393eec6cd56930e642b",
+  "time" : {
+    "start" : 1726910915061,
+    "stop" : 1726910915061,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+  "statusTrace" : "@pytest.fixture(autouse=True, scope=\"session\")\n    def init_environment():\n        response = requests.post(\n            url=f\"{HOST}/setup\",\n            headers={\"Authorization\": f\"Bearer {os.getenv('API_TOKEN')}\",\n                    \"X-Task-Id\": \"API-1\"\n                    }\n        )\n>       assert response.status_code == 205\nE       assert 401 == 205\nE        +  where 401 = <Response [401]>.status_code\n\nconftest.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1726910915062,
+      "stop" : 1726910915089,
+      "duration" : 27
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1726910915089,
+      "stop" : 1726910916729,
+      "duration" : 1640
+    },
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code\n",
+    "statusTrace" : "  File \"D:\\портфолио\\automation_api\\venv\\Lib\\site-packages\\pluggy\\_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n  File \"D:\\портфолио\\automation_api\\venv\\Lib\\site-packages\\_pytest\\setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"D:\\портфолио\\automation_api\\venv\\Lib\\site-packages\\pluggy\\_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\портфолио\\automation_api\\venv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\портфолио\\automation_api\\venv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 898, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\портфолио\\automation_api\\conftest.py\", line 18, in init_environment\n    assert response.status_code == 205\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Delete user"
+  }, {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "tag",
+    "value" : "delete_user"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeleteUser"
+  }, {
+    "name" : "host",
+    "value" : "Mirbek11"
+  }, {
+    "name" : "thread",
+    "value" : "1252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_delete_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "delete_user" ]
+  },
+  "source" : "97d2f50c88ebbe27.json",
+  "parameterValues" : [ ]
+}

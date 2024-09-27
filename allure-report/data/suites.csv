@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Sep 17 04:57:47 GMT 2024","Tue Sep 17 04:57:49 GMT 2024","2000","tests","test_users","TestUsers","","","test_create_user",""
+"passed","Fri Sep 27 06:36:46 GMT 2024","Fri Sep 27 06:36:50 GMT 2024","3302","tests","test_delete_user","TestDeleteUser","","","test_delete_user",""
+"passed","Fri Sep 27 06:36:51 GMT 2024","Fri Sep 27 06:36:53 GMT 2024","1713","tests","test_patch_users","TestPatchUser","","","test_patch_user_data",""
+"passed","Fri Sep 27 06:36:53 GMT 2024","Fri Sep 27 06:36:55 GMT 2024","1549","tests","test_users","TestUsers","","","test_create_user",""
+"passed","Fri Sep 27 06:36:50 GMT 2024","Fri Sep 27 06:36:51 GMT 2024","1632","tests","test_games","TestGames","","","test_get_all_users",""

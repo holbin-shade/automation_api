@@ -3,18 +3,81 @@
   "children" : [ {
     "name" : "tests",
     "children" : [ {
+      "name" : "test_delete_user",
+      "children" : [ {
+        "name" : "TestDeleteUser",
+        "children" : [ {
+          "name" : "test_delete_user",
+          "uid" : "f623aa7bf9ca6d3a",
+          "parentUid" : "d443f06176c8e64253cd5a9006565c74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727419006819,
+            "stop" : 1727419010121,
+            "duration" : 3302
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d443f06176c8e64253cd5a9006565c74"
+      } ],
+      "uid" : "9aa401dc06e17d6a281fe00f8136511e"
+    }, {
+      "name" : "test_games",
+      "children" : [ {
+        "name" : "TestGames",
+        "children" : [ {
+          "name" : "test_get_all_users",
+          "uid" : "d68d9f7143a1e9f4",
+          "parentUid" : "a97134014b0fc08b59436c81499a5c15",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727419010129,
+            "stop" : 1727419011761,
+            "duration" : 1632
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a97134014b0fc08b59436c81499a5c15"
+      } ],
+      "uid" : "9208af93f3b299fad69a219f361f9af1"
+    }, {
+      "name" : "test_patch_users",
+      "children" : [ {
+        "name" : "TestPatchUser",
+        "children" : [ {
+          "name" : "test_patch_user_data",
+          "uid" : "590266ab1001d7f4",
+          "parentUid" : "fe9d066bf8e9474f7e784357880735cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1727419011771,
+            "stop" : 1727419013484,
+            "duration" : 1713
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fe9d066bf8e9474f7e784357880735cf"
+      } ],
+      "uid" : "589cf54f49d35b316e48215c73036579"
+    }, {
       "name" : "test_users",
       "children" : [ {
         "name" : "TestUsers",
         "children" : [ {
           "name" : "test_create_user",
-          "uid" : "422d3eb9c066dbbf",
+          "uid" : "589c88e6ab11ff45",
           "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
           "status" : "passed",
           "time" : {
-            "start" : 1726549067052,
-            "stop" : 1726549069052,
-            "duration" : 2000
+            "start" : 1727419013491,
+            "stop" : 1727419015040,
+            "duration" : 1549
           },
           "flaky" : false,
           "newFailed" : false,

@@ -1,0 +1,178 @@
+{
+  "uid" : "b375d081b21d7b2c",
+  "name" : "test_get_all_users",
+  "fullName" : "tests.test_games.TestGames#test_get_all_users",
+  "historyId" : "3be1b9d0ce833003090e79b6244038b7",
+  "time" : {
+    "start" : 1727376951627,
+    "stop" : 1727376953148,
+    "duration" : 1521
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1727376946563,
+      "stop" : 1727376946591,
+      "duration" : 28
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1727376946591,
+      "stop" : 1727376948330,
+      "duration" : 1739
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestGames",
+    "time" : {
+      "start" : 1727376951626,
+      "stop" : 1727376951626,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get all games",
+      "time" : {
+        "start" : 1727376951627,
+        "stop" : 1727376952407,
+        "duration" : 780
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7fef8969042f4adc",
+        "name" : "Api response",
+        "source" : "7fef8969042f4adc.json",
+        "type" : "application/json",
+        "size" : 2577
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Search game by query",
+      "time" : {
+        "start" : 1727376952408,
+        "stop" : 1727376953148,
+        "duration" : 740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42cecf9b0af4643d",
+        "name" : "Api response",
+        "source" : "42cecf9b0af4643d.json",
+        "type" : "application/json",
+        "size" : 309
+      } ],
+      "parameters" : [ {
+        "name" : "search_game",
+        "value" : "'Atomic Heart'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestGames::0",
+    "time" : {
+      "start" : 1727376953149,
+      "stop" : 1727376953149,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Games"
+  }, {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "tag",
+    "value" : "game_tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_games"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGames"
+  }, {
+    "name" : "host",
+    "value" : "Mirbek11"
+  }, {
+    "name" : "thread",
+    "value" : "392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_games"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "game_tests" ]
+  },
+  "source" : "b375d081b21d7b2c.json",
+  "parameterValues" : [ ]
+}

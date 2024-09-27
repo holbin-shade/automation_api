@@ -1,0 +1,175 @@
+{
+  "uid" : "90a8ee077facf4a6",
+  "name" : "test_patch_user_data",
+  "fullName" : "tests.test_patch_users.TestPatchUser#test_patch_user_data",
+  "historyId" : "0016b06c693598a474be83461b627fea",
+  "time" : {
+    "start" : 1727418913891,
+    "stop" : 1727418915394,
+    "duration" : 1503
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1727418902076,
+      "stop" : 1727418905810,
+      "duration" : 3734
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestPatchUser",
+    "time" : {
+      "start" : 1727418913890,
+      "stop" : 1727418913890,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1727418902063,
+      "stop" : 1727418902076,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get all users",
+      "time" : {
+        "start" : 1727418913891,
+        "stop" : 1727418914711,
+        "duration" : 820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "482e21b73d4b636d",
+        "name" : "Api response",
+        "source" : "482e21b73d4b636d.json",
+        "type" : "application/json",
+        "size" : 2166
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Patch user by id",
+      "time" : {
+        "start" : 1727418914711,
+        "stop" : 1727418915393,
+        "duration" : 682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_id",
+        "value" : "'da4bf5f3-0fdc-4cbd-ab23-470d0ae531ad'"
+      }, {
+        "name" : "data",
+        "value" : "{'email': 'alex@gmail.com', 'name': 'Alex'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestPatchUser::0",
+    "time" : {
+      "start" : 1727418915395,
+      "stop" : 1727418915395,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Patch user data"
+  }, {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "tag",
+    "value" : "patch_user"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_patch_users"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPatchUser"
+  }, {
+    "name" : "host",
+    "value" : "314de6461e85"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_patch_users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "patch_user" ]
+  },
+  "source" : "90a8ee077facf4a6.json",
+  "parameterValues" : [ ]
+}

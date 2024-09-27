@@ -1,2 +1,5 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Administration","Delete user","","0","0","1","0","0"
+"Administration","Patch user data","","0","0","1","0","0"
 "Administration","Users","","0","0","1","0","0"
+"Administration","Games","","0","0","1","0","0"
