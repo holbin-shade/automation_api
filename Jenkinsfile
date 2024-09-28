@@ -27,11 +27,11 @@ pipeline {
                 sh 'docker-compose up api-tests'
             }
         }
-        stage('Generate tests reports'){
-            steps{
-                sh 'docker-compose up report'
-            }
-        }
+        // stage('Generate tests reports'){
+        //     steps{
+        //         sh 'docker-compose up report'
+        //     }
+        // }
     }
     post{
         always {
